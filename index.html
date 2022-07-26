@@ -3,158 +3,208 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Diana Edreva | Web magician</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="" href="favicon.ico">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+  <title>Bootstrap CV site </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body>
-<div class="navigation">
+<body >
+  <nav class="container-fluid navbar fixed-top navbar-expand-lg navbar-dark px-3" id="navigation">
 
-
-  <ul>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#experience">Work Experience</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#contact">Contact me</a></li>
-  </ul>
+    <a class="navbar-brand" href="#">Diana Edreva</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Who am I?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="who" class="container-fluid">
+  <div class="row">
+  <div id="spacer">
   </div>
-  <div class="first">
-
-    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGXBAJUkipkSg/profile-displayphoto-shrink_400_400/0/1655438694013?e=1663804800&v=beta&t=SpCFjzY5ijuae8856L1fmo7ntVTpZ0o9d3zDkCVnrtY" alt="Profile photo" width="120px" height="120px" />
+<div class="col-md-2 offset-md-1">
+  <div class="p-3 mb-3 rounded">
+    <img id="profile" src="https://media-exp1.licdn.com/dms/image/C4E03AQGXBAJUkipkSg/profile-displayphoto-shrink_400_400/0/1655438694013?e=1663804800&v=beta&t=SpCFjzY5ijuae8856L1fmo7ntVTpZ0o9d3zDkCVnrtY" alt="Profile photo"/>
+  </div>
+</div>
+<div class="col-md-6 offset-md-2">
     <h1>Hi! I'm Diana</h1>
     <h2>A web technology enthusiast who loves to <em>create</em></h2>
-    <hr />
+</div>
+</div>
+</div>
+
+  <div id="skills" class="container-fluid ">
+    <h2>Skills </h2>
+    <hr/>
+      
+  <div class="row offset-sm-2">
+    <div class ="col-lg-3 col-sm-6">
+      
+      <img  src="images/browser.png">
+
+      <p> HTML5 & CSS3 </p>
+    </div>
+    
+        <div class ="col-lg-3 col-sm-6">
+          
+      <img  src="images/gnu-bash.png">
+      <p> BASH scripting </p>
+    </div>
+    
+        <div class ="col-lg-3 col-sm-6">
+          
+      <img src="images/python.png">
+      <p> Python programming </p>
+    </div>
+    
+        <div class ="col-lg-3 col-sm-6">
+          
+      <img src="images/web-design.png">
+      <p> Web Design </p>
+    </div>
+    
   </div>
-  <div class="second" id="education">
+</div>
+
+<div class="third container-fluid" id="education">
+  <img class="robot" src="images/robot.png" alt="a robot image">
+
     <h2>Education</h2>
-    <img class="cloud"  height="150px" src="images/cloud.png" alt="cloud image" />
-<img src="images/computer.png"   alt="a computer image">
-<img class="cloud-left"  height="250px" src="images/cloud.png" alt="cloud image" />
-
+    <hr>
+    <br>
+          <h4><strong>2017-2021</strong> Bachelor degree in <em>Information Security</em> at <a href="https://www.unibit.bg/en">ULSIT</a></h4>
     <p>
-      <h4><strong>2017-2021</strong> Bachelor degree in <em>Information Security</em> at<a href="https://www.unibit.bg/en">ULSIT</a>
-      </h4>
-      Studied fundamental and specialized disciplines such as <i>linear algebra, programming, mathematical analysis, system analysis, information management, foundations of computer systems, theoretical foundations of informatics, information systems, computer networks and communications, methodological foundations of information security, cryptography and cryptology, protection of information in computers and networks, information security on the Internet, protection of classified information, protection of intellectual property, normative and legal foundations of information security, risk management and more. </i>
 
-      <h4><strong>2021-2022</strong> Masters degree in <em>Digital Forensics and Cybersecurity</em> at<a href="https://www.unibit.bg/en">ULSIT</a>
+      <img src="images/computer.png"  width="150px;" id="compimage" alt="a computer image" >
+      Studied fundamental and specialized disciplines such as linear algebra, programming, mathematical analysis, system analysis, information management, foundations of computer systems, theoretical foundations of informatics, information systems, computer networks and communications, methodological foundations of information security, cryptography and cryptology, protection of information in computers and networks, information security on the Internet, protection of classified information, protection of intellectual property, normative and legal foundations of information security, risk management and more.
+</p>
+<br/>
+      <h4><strong>2021-2022</strong> Masters degree in <em>Digital Forensics and Cybersecurity</em> at <a href="https://www.unibit.bg/en">ULSIT</a> 
+
   </h4>
+<p>
+
       Studied cybersecurity fundamentals as well as the skills to recognise multiple key
-      attacks like <i>OWASP, IoT hacking, APT, Fileless malware, Web API threats,
+      attacks like OWASP, IoT hacking, APT, Fileless malware, Web API threats,
       Webhooks, Web Shell, OT Attacks, Cloud Attacks, AI, ML and many more; asymmetrical and
       symmetric cryptography;cryptanalysis; analysis and breakthrough in cryptography; overview of algorithms such as, algorithms for
-      hashing including MD5, MD6, SHA, Gost, RIPMD 256 and others</i>;
+      hashing including MD5, MD6, SHA, Gost, RIPMD 256 and others;
 
     </p>
+
     <br />
 
   </div>
-  <div class="third" id="experience">
-    <h2>Work experience:</h2>
-    <img class="robot" src="images/robot.png" alt="a robot image">
-    <h5 >Experienced Computer Administrator with a demonstrated history of working in the <em>web hosting industry</em>. </h5>
+
+  <div id="certificates" class="container-fluid ">
+    <h2>Certificates</h2>
+    <hr/>
+      
+  <div class="row offset-lg-1 offset-md-2 offset-sm-1">
+    <div class ="col-lg-2 col-sm-6">
+      
+      <img  src="https://rpk.mon.bg/Content/img/logo.png">
+
+      <p>Computer & graphics design</p>
+    </div>
+    
+        <div class ="col-lg-2 col-sm-6">
+          
+      <img  src="https://rpk.mon.bg/Content/img/logo.png">
+      <p>Information technology(IT) teacher</p>
+    </div>
+    
+        <div class ="col-lg-2 col-sm-6">
+          
+      <img src="https://rpk.mon.bg/Content/img/logo.png">
+      <p>Programmer</p>
+    </div>
+  
+        <div class ="col-lg-2 col-sm-6">
+          
+      <img src="https://eldernode.com/wp-content/uploads/2020/10/mikrotik-sec-logo-org-min.png">
+      <p> MikroTik routing</p>
+    </div>
 
 
-<h5>team.blue</h5>
-January 2017 - Present<br />
-Platform Engineer Trainee; Team Leader of Migrations team
-
-<h5>webiko.eu</h5>
-September 2021 - Present <br />
-Founder and main technical engineer
-
-<h5>progressbg.net</h5>
-November 2016 - 2018<br /> Part-time lecturer for the following classes: Front End Development, Content Management Systems,  Computer graphics and design
-<h5>Paragon Internet Group Ltd</h5>
-June 2014 - December 2016 <br />
-Senior Support Engineer, Wordpress expert, Team Leader of Technical Concierge team
-    </p>
-    <img id="fliped" align=right height="150px" src="images/cloud.png" alt="cloud image" />
-    <br />
-
-
+        <div class ="col-lg-2 col-sm-12">
+          
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/800px-Google_%22G%22_Logo.svg.png">
+      <p> Digital Marketing </p>
+    </div>
+    
   </div>
-
-  <div class="fourth" id="skills">
-    <h2>Skills: </h2>
-    <table>
-    <tbody>
-    <tr>
-    <td>HTML5</td>
-    <td>CSS3</td>
-    <td>WordPress</td>
-    <td>Bash</td>
-    </tr>
-    <tr>
-    <td>Python</td>
-    <td>MySQL</td>
-    <td>BurpSuite</td>
-    <td>Docker</td>
-    </tr>
-    <tr>
-    <td>Git</td>
-    <td>IIS</td>
-    <td>DNS</td>
-    <td>CMS</td>
-    </tr>
-      <tr>
-    <td>Management</td>
-    <td>Team Player</td>
-    <td>Comunicative</td>
-    <td>Loves to learn</td>
-    </tr>
-    </tbody>
-    </table>
-  </div>
-  <div class="fifth" id="contact">
-    <h3>Contact me!</h3>
-    <p>
-      You can contact me on my LinkedIn page or via an email, use the quick buttons for that purpose!
-      Hope you have a great day!
-
-    <a href="https://www.linkedin.com/in/diana-edreva-192762102/" class="fa fa-linkedin"></a>
-    <a href="mailto:diana@nightroadsites.com" class="fa fa-envelope"></a>
-        </p>
-        <br />
-        <hr />
-  </div>
-
-<div id="last">
-
 </div>
-  <div class="mountain">
+
+<div class="container-fluid " id = "contact"> 
+  <h2>Contact me</h2>
+
+  <h4>You can always send me an email or find me at my social accounts </h4>
+<br>
+  <a class="btn btn-info" href="mailto:diana@nightroadsites.com" role="button">Send me an email!</a> 
+
+  <a class="btn btn-info " href="https://www.linkedin.com/in/diana-edreva-192762102/" role="button"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png" width="20px"> </img></a> 
 
 
 
-    <div class="mountain-top">
+  <a class="btn btn-info" href="https://github.com/dnightroad" role="button"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png?w=360" width="20px"> </a> 
+    <a class="btn btn-info" href="https://replit.com/@DianaIvanova1" role="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/800px-Repl.it_logo.svg.png" width="20px"> </a> 
 
-      <div class="mountain-cap-1"> <a href="mailto:diana@nightroadsites.com">Email</a>
-      </div>
-      <div class="mountain-cap-2"></div>
-      <div class="mountain-cap-3"></div>
+<div id="spacer"></div>
+</div>
 
-    </div>
-  </div>
-  <div class="mountain-two">
-    <div class="mountain-top">
-      <div class="mountain-cap-1"></div>
-      <div class="mountain-cap-2"></div>
-      <div class="mountain-cap-3"></div>
-    </div>
-  </div>
+<a id="back-to-top" href="#" class="btn btn-lg back_to_top" role="button"> <div class="backbutntop"> Go back up?</div><img src="https://freepngimg.com/save/83006-square-angle-comics-balloon-book-speech-comic/800x677" width="80px;"></img></a>
 
-  <div class="mountain-three">
-    <div class="mountain-top">
-      <div class="mountain-cap-1"></div>
-      <div class="mountain-cap-2"></div>
-      <div class="mountain-cap-3"></div>
-    </div>
-  </div>
+<script>
+let mybutton = document.getElementById("back-to-top");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+scrollFunction();
+};
 
+function scrollFunction() {
+if (
+document.body.scrollTop > 20 ||
+document.documentElement.scrollTop > 20
+) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
 
+function backToTop() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+
+</script>
 </body>
 
 </html>

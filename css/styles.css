@@ -1,0 +1,149 @@
+body{
+	font-family: 'Playfair Display', serif;
+
+}
+#spacer{
+	height:60px;
+}
+#who{
+	padding-top: 8%;
+	padding-bottom: 10%;
+text-align: left;
+background-color: #576F72;
+
+}
+#navigation{
+	background-color: rgb(125, 157, 156, .9);
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+#profile{
+	border-radius: 50%;
+	width: 180px; 
+	height: 180px;
+}
+#skills{
+	background-color: rgb(228, 220, 207);
+
+	padding-top: 4%;
+	padding-bottom: 5%;
+
+}
+#skills img{
+	width:150px;
+
+
+	
+}
+#skills p{
+	padding-left: 6%;
+}
+#certificates{
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: rgb(228, 220, 207);
+
+	padding-top: 4%;
+	padding-bottom: 5%;
+
+}
+#certificates img{
+	width:150px;
+	height:140px;
+	margin-left: 4%;
+	border-radius: 15px;
+	
+}
+#certificates p{
+	text-align: left;
+}
+#compimage{
+	float:left;
+	padding-right: 2%;
+}
+#contact{
+	text-align: center;
+	background-color: #576F72;
+}
+#spacer{
+	height: 20px;
+}
+#back-to-top{
+	background-color: transparent;
+	border: none;
+	position: fixed;
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    bottom: 12%;
+    right: 2%;
+    display: none;
+    
+}
+li.nav-item:hover{
+    background-color:#576F72;
+    border-radius: 10px;
+}
+h1, h4{
+	text-align: center;
+	color:white;
+}
+h2{
+	
+	text-align: center;
+
+
+}
+hr{
+
+	width: 200px;
+	margin:auto!important;
+	padding-bottom: 4%;
+	padding-top: 1%;
+}
+p{
+	text-align: justify;
+}
+a{
+	color: #253a3c;
+}
+a:hover{
+	color: white;
+}
+.robot{
+	position: fixed;
+    right: 10px;
+    top: 85%;
+    width: 80px;
+}
+.third{
+
+background-color: #7D9D9C;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.btn{
+	margin: 5px;
+	background-color: #7D9D9C;
+	border-color: #576F72;
+	border-radius: 15px;
+}
+@media only screen and (max-width: 400px) {
+.robot{
+	width: 50px;
+}
+}
+.backbutntop{
+	width:50px;
+	font-size:12px;
+	position: fixed;
+    bottom: 38%;
+    right: 25%;
+    z-index: 10;
+    	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
