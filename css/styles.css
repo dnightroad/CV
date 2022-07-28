@@ -202,3 +202,16 @@ background-color: #7D9D9C;
 .right-content p {
 	margin:80px 0 150px;
 }
+
+.workhis{
+	padding: 2%;
+	
+}
+.workhis b{
+	text-decoration: underline;
+}
+.workhis:hover{
+background-color: rgb(228, 220, 207);
+border-radius: 15px;
+
+}
