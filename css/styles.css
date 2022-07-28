@@ -169,7 +169,7 @@ background-color: #7D9D9C;
 .right-content p {
 	margin:80px 0 150px;
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 770px) {
 #navigation{
 	height: 14%;
 	font-size: 2rem;
@@ -195,9 +195,6 @@ background-color: rgb(125, 157, 156, .9);
 
 .navbar-toggler{
     font-size: 1.5em;
-}
-.robot{
-	width: 50px;
 }
 .col-sm-6{
 width:250px;
