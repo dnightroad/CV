@@ -187,14 +187,14 @@ background-color: #7D9D9C;
 	padding-top: 20%;
 }
 .navbar-brand {
-    font-size: 1.2em!important;
+    font-size: 1.1em!important;
 }
 .navbar-collapse{
 background-color: rgb(125, 157, 156, .9);
 }
 
 .navbar-toggler{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .col-sm-6{
 width:250px;
