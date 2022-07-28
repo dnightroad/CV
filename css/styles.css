@@ -1,3 +1,36 @@
+@media only screen and (max-width: 770px) {
+#navigation{
+	height: 14%;
+	font-size: 1em;
+    text-align: right;
+}
+#skills{
+	margin: auto;
+	text-align: center;
+}
+#certificates{
+	margin: auto;
+	text-align: center;
+}
+
+.navbar-brand {
+    font-size: 1em!important;
+}
+.navbar-collapse{
+background-color: rgb(125, 157, 156, .9);
+padding-right: 4%;
+}
+
+
+.col-sm-6{
+width:250px;
+margin: auto;
+text-align: center;
+}
+
+}
+
+
 body{
 	font-family: 'Playfair Display', serif;
 
@@ -6,7 +39,7 @@ body{
 	height:60px;
 }
 #who{
-	padding-top: 8%;
+	padding-top: 18%;
 	padding-bottom: 10%;
 text-align: center;
 background-color: #576F72;
@@ -169,38 +202,3 @@ background-color: #7D9D9C;
 .right-content p {
 	margin:80px 0 150px;
 }
-@media only screen and (max-width: 770px) {
-#navigation{
-	height: 14%;
-	font-size: 2rem;
-    text-align: right;
-}
-#skills{
-	margin: auto;
-	text-align: center;
-}
-#certificates{
-	margin: auto;
-	text-align: center;
-}
-#who{
-	padding-top: 20%;
-}
-.navbar-brand {
-    font-size: 1.1em!important;
-}
-.navbar-collapse{
-background-color: rgb(125, 157, 156, .9);
-}
-
-.navbar-toggler{
-    font-size: 1.2em;
-}
-.col-sm-6{
-width:250px;
-margin: auto;
-text-align: center;
-}
-
-
-
