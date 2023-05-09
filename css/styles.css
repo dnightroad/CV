@@ -13,6 +13,7 @@
 	text-align: center;
 }
 
+
 .navbar-brand {
     font-size: 1em!important;
 }
@@ -53,7 +54,7 @@ background-color: #576F72;
 }
 #profile{
 	border-radius: 50%;
-	width: 180px; 
+	width: 180px;
 	height: 180px;
 }
 #skills{
@@ -67,7 +68,7 @@ background-color: #576F72;
 	width:150px;
 
 
-	
+
 }
 #skills p{
 	padding-left: 6%;
@@ -86,7 +87,7 @@ background-color: #576F72;
 	height:140px;
 	margin-left: 4%;
 	border-radius: 15px;
-	
+
 }
 #certificates p{
 	text-align: left;
@@ -102,17 +103,6 @@ background-color: #576F72;
 #spacer{
 	height: 20px;
 }
-#back-to-top{
-	background-color: transparent;
-	border: none;
-	position: fixed;
-	-webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-    bottom: 12%;
-    right: 2%;
-    display: none;
-    
-}
 #experience{
 	background-color: #7D9D9C;
 }
@@ -125,7 +115,7 @@ h1, h4{
 	color:white;
 }
 h2{
-	
+
 	text-align: center;
 
 
@@ -168,16 +158,6 @@ background-color: #7D9D9C;
 	border-radius: 15px;
 }
 
-.backbutntop{
-	width:50px;
-	font-size:12px;
-	position: fixed;
-    bottom: 38%;
-    right: 25%;
-    z-index: 10;
-    	-webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
 
 
 .container {
@@ -193,7 +173,7 @@ background-color: #7D9D9C;
 	padding:1% 2%;
 }
 .left-content {
-	border-right:5px dotted #666;	
+	border-right:5px dotted #666;
 	text-align:right;
 }
 .left-content p {
@@ -205,7 +185,7 @@ background-color: #7D9D9C;
 
 .workhis{
 	padding: 2%;
-	
+
 }
 .workhis b{
 	text-decoration: underline;
@@ -214,4 +194,30 @@ background-color: #7D9D9C;
 background-color: rgb(228, 220, 207);
 border-radius: 15px;
 
+}
+#contact img{
+	width:30px;
+	height:30px;
+}
+
+#back-to-top{
+	background-color: transparent;
+	border: none;
+	position: fixed;
+	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+    bottom: 12%;
+    right: 2%;
+    display: none;
+
+}
+.backbutntop{
+	width:60px;
+	font-size:14px;
+	position: fixed;
+    bottom: 45%;
+    right: 30%;
+    z-index: 10;
+    	-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
